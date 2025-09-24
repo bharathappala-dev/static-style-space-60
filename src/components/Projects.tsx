@@ -10,48 +10,37 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product catalog, shopping cart, and admin dashboard.",
-      longDescription: "This comprehensive e-commerce platform was built from the ground up using modern web technologies. It features a responsive React frontend with a robust Node.js backend, integrated with PostgreSQL for data persistence and Stripe for secure payment processing. The admin dashboard provides comprehensive analytics and inventory management capabilities.",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      image: "🛒",
+      title: "Sudoku Game Solver",
+      description: "Interactive Sudoku puzzle solver built with Python Tkinter. Takes dynamic input from users and solves Sudoku puzzles using advanced algorithms.",
+      longDescription: "An intelligent Sudoku puzzle solver that combines user-friendly GUI design with powerful solving algorithms. Built using Python Tkinter, the application accepts dynamic input from users and efficiently solves Sudoku puzzles of varying difficulty levels. Features include real-time solving visualization, input validation, and an intuitive interface for both beginners and advanced users.",
+      technologies: ["Python", "Tkinter", "Algorithms", "GUI Development"],
+      image: "🧩",
       color: "from-blue-500 to-purple-600",
-      status: "Live",
-      demoUrl: "https://your-demo-url.com",
-      sourceUrl: "https://github.com/yourusername/ecommerce-platform"
+      status: "Completed",
+      demoUrl: "https://github.com/bharathappala-dev",
+      sourceUrl: "https://github.com/bharathappala-dev"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features built with React and Socket.io.",
-      longDescription: "A powerful project management solution designed for modern teams. Features real-time collaboration through WebSocket connections, intuitive drag-and-drop task organization, team member assignments, and comprehensive project tracking. Built with performance and scalability in mind.",
-      technologies: ["React", "Socket.io", "MongoDB", "Express"],
-      image: "📋",
+      title: "Efficient Route Planning System",
+      description: "Strategic route optimization system that accepts dynamic input for cities and travel costs. Features Python backend with HTML, CSS, and JavaScript frontend.",
+      longDescription: "A comprehensive route planning solution designed to optimize travel efficiency and costs. The system accepts dynamic input including number of cities and associated travel costs, then calculates the most efficient routes using advanced pathfinding algorithms. Built with a Python backend for computational processing and a modern web frontend using HTML, CSS, and JavaScript for an intuitive user experience.",
+      technologies: ["Python", "HTML", "CSS", "JavaScript", "Algorithms"],
+      image: "🗺️",
       color: "from-green-500 to-teal-600",
-      status: "In Development",
-      demoUrl: "https://your-demo-url.com",
-      sourceUrl: "https://github.com/yourusername/task-management"
+      status: "Completed",
+      demoUrl: "https://github.com/bharathappala-dev",
+      sourceUrl: "https://github.com/bharathappala-dev"
     },
     {
-      title: "AI Content Generator",
-      description: "AI-powered content generation platform using OpenAI's GPT API. Features include blog post generation, social media content, and SEO optimization.",
-      longDescription: "Cutting-edge AI content generation platform that leverages OpenAI's latest models to create high-quality content across multiple formats. Features intelligent SEO optimization, multi-language support, content scheduling, and analytics dashboard for tracking performance metrics.",
-      technologies: ["Next.js", "OpenAI API", "Prisma", "PostgreSQL"],
-      image: "🤖",
-      color: "from-purple-500 to-pink-600",
-      status: "Live",
-      demoUrl: "https://your-demo-url.com",
-      sourceUrl: "https://github.com/yourusername/ai-content-generator"
-    },
-    {
-      title: "Weather Dashboard",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics using modern web technologies.",
-      longDescription: "An elegant weather dashboard featuring real-time weather data, interactive maps with radar overlay, detailed forecasts, and historical weather analytics. Built with Vue.js for optimal performance and includes features like location-based alerts and customizable widgets.",
-      technologies: ["Vue.js", "Weather API", "Chart.js", "Tailwind"],
-      image: "🌤️",
-      color: "from-orange-500 to-red-600",
-      status: "Live",
-      demoUrl: "https://your-demo-url.com",
-      sourceUrl: "https://github.com/yourusername/weather-dashboard"
+      title: "Smart India Hackathon Project",
+      description: "Water Footprint Analysis System - A digital solution for monitoring and optimizing water consumption patterns in agriculture sectors.",
+      longDescription: "Developed as part of Smart India Hackathon, this innovative project focuses on analyzing and minimizing water usage in agriculture through advanced digital monitoring. The solution tracks direct and indirect water usage (blue, green, and grey water footprints), provides real-time insights, and suggests conservation strategies. Enhanced problem-solving, teamwork, and sustainability concepts while applying technology for environmental impact.",
+      technologies: ["Python", "Data Analytics", "Environmental Tech", "Sustainability"],
+      image: "💧",
+      color: "from-blue-400 to-cyan-600",
+      status: "Completed",
+      demoUrl: "https://github.com/bharathappala-dev",
+      sourceUrl: "https://github.com/bharathappala-dev"
     }
   ];
 

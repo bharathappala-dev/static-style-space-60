@@ -15,10 +15,10 @@ const Index = () => {
       <Projects />
       <Contact />
       
-      <footer className="bg-card/50 border-t border-border/50 py-8 text-center">
+        <footer className="bg-card/50 border-t border-border/50 py-8 text-center">
         <div className="container mx-auto px-6">
           <p className="text-muted-foreground">
-            © 2024 Alex Johnson. Built with React, TypeScript & Tailwind CSS
+            © 2024 Appala Bharath. Built with React, TypeScript & Tailwind CSS
           </p>
         </div>
       </footer>

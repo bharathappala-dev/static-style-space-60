@@ -25,13 +25,13 @@ const Hero = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           Hi, I'm{' '}
           <span className="gradient-hero bg-clip-text text-transparent animate-glow">
-            Alex Johnson
+            Appala Bharath
           </span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Full Stack Developer & UI/UX Designer passionate about creating beautiful, 
-          functional web experiences that make a difference.
+          AI & ML Engineer passionate about developing innovative solutions and 
+          contributing to technological advancement in collaborative environments.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -11,10 +11,10 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: "📧", label: "Email", value: "alex.johnson@email.com", link: "mailto:alex.johnson@email.com" },
-    { icon: "📱", label: "Phone", value: "+1 (555) 123-4567", link: "tel:+15551234567" },
-    { icon: "📍", label: "Location", value: "San Francisco, CA", link: "#" },
-    { icon: "💼", label: "LinkedIn", value: "linkedin.com/in/alexjohnson", link: "https://linkedin.com/in/alexjohnson" }
+    { icon: "📧", label: "Email", value: "appalabharath2005@gmail.com", link: "mailto:appalabharath2005@gmail.com" },
+    { icon: "📱", label: "Phone", value: "+91-8309828941", link: "tel:+918309828941" },
+    { icon: "💼", label: "LinkedIn", value: "linkedin.com/in/appala-bharath", link: "https://www.linkedin.com/in/appala-bharath/" },
+    { icon: "🔗", label: "GitHub", value: "github.com/bharathappala-dev", link: "https://github.com/bharathappala-dev" }
   ];
 
   return (

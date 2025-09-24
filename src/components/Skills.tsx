@@ -3,30 +3,30 @@ import { Card } from '@/components/ui/card';
 const Skills = () => {
   const skills = [
     {
-      category: "Frontend",
+      category: "Programming Languages",
       technologies: [
-        { name: "React", level: 95, icon: "⚛️" },
-        { name: "TypeScript", level: 90, icon: "📘" },
-        { name: "Next.js", level: 85, icon: "▲" },
-        { name: "Tailwind CSS", level: 92, icon: "🎨" }
+        { name: "Python", level: 90, icon: "🐍" },
+        { name: "Java", level: 85, icon: "☕" },
+        { name: "C", level: 80, icon: "⚡" },
+        { name: "SQL", level: 85, icon: "🗄️" }
       ]
     },
     {
-      category: "Backend",
+      category: "AI & ML",
       technologies: [
-        { name: "Node.js", level: 88, icon: "🟢" },
-        { name: "Python", level: 82, icon: "🐍" },
-        { name: "PostgreSQL", level: 85, icon: "🐘" },
-        { name: "MongoDB", level: 78, icon: "🍃" }
+        { name: "Machine Learning", level: 88, icon: "🤖" },
+        { name: "Data Analytics", level: 85, icon: "📊" },
+        { name: "AI Algorithms", level: 82, icon: "🧠" },
+        { name: "Data Structures", level: 90, icon: "🏗️" }
       ]
     },
     {
-      category: "Tools & Others",
+      category: "Tools & Technologies",
       technologies: [
-        { name: "Git", level: 90, icon: "📦" },
-        { name: "Docker", level: 80, icon: "🐳" },
-        { name: "AWS", level: 75, icon: "☁️" },
-        { name: "Figma", level: 85, icon: "🎭" }
+        { name: "VS Code", level: 95, icon: "💻" },
+        { name: "GitHub", level: 90, icon: "📦" },
+        { name: "MS Excel", level: 88, icon: "📈" },
+        { name: "AutoCAD", level: 75, icon: "📐" }
       ]
     }
   ];

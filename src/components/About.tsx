@@ -16,26 +16,25 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm a dedicated full-stack developer with over 5 years of experience crafting 
-              digital experiences that seamlessly blend functionality with aesthetics. My journey 
-              began with a curiosity for how things work behind the screen, and it has evolved 
-              into a passion for creating solutions that matter.
+              I'm currently pursuing a Bachelor of Technology in Artificial Intelligence and Machine Learning 
+              from Anurag University with a CGPA of 8.8. Always eager to explore new opportunities and 
+              develop skills that make a difference. Ready to contribute, learn, and grow in a collaborative environment.
             </p>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or sharing knowledge with the developer community. I believe 
-              in continuous learning and staying at the forefront of web development trends.
+              My journey includes participating in prestigious hackathons like Smart India Hackathon, 
+              where I worked on innovative solutions for environmental sustainability. I'm passionate about 
+              leveraging technology to solve real-world problems and create meaningful impact.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mt-8">
               <Card className="gradient-card border border-border/50 p-4 text-center shadow-card transition-bounce hover:shadow-hover">
-                <div className="text-2xl font-bold text-primary">50+</div>
-                <div className="text-muted-foreground text-sm">Projects Completed</div>
+                <div className="text-2xl font-bold text-primary">8.8</div>
+                <div className="text-muted-foreground text-sm">Current CGPA</div>
               </Card>
               <Card className="gradient-card border border-border/50 p-4 text-center shadow-card transition-bounce hover:shadow-hover">
-                <div className="text-2xl font-bold text-secondary">5+</div>
-                <div className="text-muted-foreground text-sm">Years Experience</div>
+                <div className="text-2xl font-bold text-secondary">4+</div>
+                <div className="text-muted-foreground text-sm">Certifications</div>
               </Card>
             </div>
           </div>
