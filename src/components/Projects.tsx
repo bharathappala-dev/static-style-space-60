@@ -10,6 +10,17 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "University Marks Portal",
+      description: "Voice-based university marks portal designed for parents with technology barriers. Features secure admin login, student record management, and voice-powered accessibility.",
+      longDescription: "A revolutionary voice-based university marks portal that makes academic record access inclusive and accessible to everyone, especially parents who face difficulties with traditional keyboard-based interfaces. The app helps overcome literacy barriers and technology comfort issues by providing intuitive voice commands for checking student results using simple roll number lookup. Features secure JWT authentication, comprehensive CRUD operations for student records, and a responsive design that works seamlessly across web and mobile platforms.",
+      technologies: ["Flutter", "Node.js/Django", "REST API", "JWT", "Voice Recognition"],
+      image: "🎓",
+      color: "from-emerald-500 to-blue-600",
+      status: "In Development",
+      demoUrl: "https://github.com/bharathappala-dev",
+      sourceUrl: "https://github.com/bharathappala-dev"
+    },
+    {
       title: "Sudoku Game Solver",
       description: "Interactive Sudoku puzzle solver built with Python Tkinter. Takes dynamic input from users and solves Sudoku puzzles using advanced algorithms.",
       longDescription: "An intelligent Sudoku puzzle solver that combines user-friendly GUI design with powerful solving algorithms. Built using Python Tkinter, the application accepts dynamic input from users and efficiently solves Sudoku puzzles of varying difficulty levels. Features include real-time solving visualization, input validation, and an intuitive interface for both beginners and advanced users.",
