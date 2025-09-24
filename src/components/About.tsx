@@ -42,8 +42,12 @@ const About = () => {
           <div className="relative">
             <div className="w-80 h-80 mx-auto relative">
               <div className="absolute inset-0 gradient-hero rounded-full opacity-20 animate-pulse" />
-              <div className="absolute inset-4 bg-muted rounded-full flex items-center justify-center">
-                <div className="text-6xl">👨‍💻</div>
+              <div className="absolute inset-4 bg-background border-4 border-border rounded-full overflow-hidden shadow-card">
+                <img 
+                  src="/src/assets/profile-photo.jpg" 
+                  alt="profile-photo" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
