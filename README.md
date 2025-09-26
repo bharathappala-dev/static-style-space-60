@@ -1,73 +1,79 @@
-# Welcome to your Lovable project
+# Bharath - Portfolio
 
-## Project info
+This is a portfolio website built with React, TypeScript, and Tailwind CSS showcasing my projects, skills, and experience in AI/ML development.
 
-**URL**: https://lovable.dev/projects/cff8e012-4c48-4954-98b7-bf70743cc4bb
+## Features
 
-## How can I edit this code?
+- Responsive design
+- Modern UI with Tailwind CSS
+- Project showcase with detailed descriptions
+- Skills section with technical expertise
+- About section with academic achievements
+- Contact form
+- SEO optimized
 
-There are several ways of editing your application.
+## How to run the project locally
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/cff8e012-4c48-4954-98b7-bf70743cc4bb) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+To run this project locally, you need to have Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Step 1: Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate to the project directory
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install the necessary dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## Technologies used
 
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
+- React Router
+- Framer Motion (for animations)
 
-## How can I deploy this project?
+## Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/cff8e012-4c48-4954-98b7-bf70743cc4bb) and click on Share -> Publish.
+```
+src/
+├── components/          # React components
+│   ├── ui/             # Reusable UI components
+│   ├── About.tsx       # About section
+│   ├── Contact.tsx     # Contact form
+│   ├── Hero.tsx        # Hero section
+│   ├── Navigation.tsx  # Navigation component
+│   ├── Projects.tsx    # Projects showcase
+│   └── Skills.tsx      # Skills section
+├── pages/              # Page components
+├── assets/             # Static assets
+└── lib/                # Utility functions
 
-## Can I connect a custom domain to my Lovable project?
+## How to deploy
 
-Yes, you can!
+You can deploy this project to any static hosting service like Vercel, Netlify, or GitHub Pages.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+# Build for production
+npm run build
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+# Preview the production build
+npm run preview
+```
+
+## About the Developer
+
+I'm Bharath, currently pursuing Bachelor of Technology in Artificial Intelligence and Machine Learning from Anurag University. I'm passionate about creating innovative solutions and have experience in various hackathons including Smart India Hackathon.
+
+## Contact
+
+Feel free to reach out for collaboration opportunities or any questions about the projects showcased here.
