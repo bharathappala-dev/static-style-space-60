@@ -1,4 +1,5 @@
 import { Card } from '@/components/ui/card';
+import profilePhoto from '@/assets/bharath-profile.jpg';
 
 const About = () => {
   return (
@@ -44,8 +45,8 @@ const About = () => {
               <div className="absolute inset-0 gradient-hero rounded-full opacity-20 animate-pulse" />
               <div className="absolute inset-4 bg-background border-4 border-border rounded-full overflow-hidden shadow-card">
                 <img 
-                  src="/src/assets/profile-photo.jpg" 
-                  alt="profile-photo" 
+                  src={profilePhoto} 
+                  alt="Bharath Appala - AI/ML Developer" 
                   className="w-full h-full object-cover"
                 />
               </div>
