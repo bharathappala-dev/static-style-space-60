@@ -17,7 +17,7 @@ const Projects = () => {
       image: "🎓",
       color: "from-emerald-500 to-blue-600",
       status: "In Development",
-      demoUrl: "https://github.com/bharathappala-dev",
+      demoUrl: "",
       sourceUrl: "https://github.com/bharathappala-dev"
     },
     {
@@ -28,8 +28,8 @@ const Projects = () => {
       image: "🧩",
       color: "from-blue-500 to-purple-600",
       status: "Completed",
-      demoUrl: "https://github.com/bharathappala-dev",
-      sourceUrl: "https://github.com/bharathappala-dev"
+      demoUrl: "",
+      sourceUrl: "https://github.com/bharathappala-dev/sudoku_python_tkinter."
     },
     {
       title: "Efficient Route Planning System",
@@ -52,6 +52,28 @@ const Projects = () => {
       status: "Completed",
       demoUrl: "https://github.com/bharathappala-dev",
       sourceUrl: "https://github.com/bharathappala-dev"
+    }
+    {
+      title: "Ground Water Prediction",
+      description: "A Streamlit-based web application that predicts groundwater levels using machine learning models like Random Forest and Linear Regression, with interactive data visualization and real-time predictions.",
+      longDescription: "The Groundwater Prediction Web Application is a machine learning project designed to estimate groundwater levels from environmental parameters such as rainfall, temperature, and soil moisture.",
+      technologies: ["Python" ,"Streamlit","scikit-learn" ,"pandas & numpy","matplotlib & seaborn","CSV Dataset"],
+      image: "💧",
+      color: "from-blue-400 to-cyan-600",
+      status: "Completed",
+      demoUrl: "https://groundwater-prediction.streamlit.app/",
+      sourceUrl: "https://github.com/bharathappala-dev/groundwater-prediction"
+    }
+    {
+      title: "SkillSwap",
+      description: "A MEAN stack web development — including secure user authentication, REST API design, database modeling, and Angular-based UI.",
+      longDescription: "It provides an online platform where users can exchange skills — offering their expertise in one area while learning from others.",
+      technologies: ["Python" ,"Streamlit","scikit-learn" ,"pandas & numpy","matplotlib & seaborn","CSV Dataset"],
+      image: "🔄",
+      color: "from-blue-400 to-cyan-600",
+      status: "In Development",
+      demoUrl: "",
+      sourceUrl: "https://github.com/bharathappala-dev/skill-swap"
     }
   ];
 
